@@ -30,18 +30,6 @@
 #include "SdFatConfig.h"
 #include "SdVolume.h"
 //------------------------------------------------------------------------------
-/**
- * \struct fpos_t
- * \brief internal type for istream
- * do not use in user apps
- */
-struct fpos_t {
-  /** stream position */
-  uint32_t position;
-  /** cluster for position */
-  uint32_t cluster;
-  fpos_t() : position(0), cluster(0) {}
-};
 
 // use the gnu style oflag in open()
 /** open() oflag for reading */
@@ -181,6 +169,18 @@ uint16_t const FAT_DEFAULT_TIME = (1 << 11);
  */
 class SdBaseFile {
  public:
+ /**
+ * \struct fpos_t
+ * \brief internal type for istream
+ * do not use in user apps
+ */
+struct fpos_t {
+  /** stream position */
+  uint32_t position;
+  /** cluster for position */
+  uint32_t cluster;
+  fpos_t() : position(0), cluster(0) {}
+};
   /** Create an instance. */
   SdBaseFile() : writeError(false), type_(FAT_FILE_TYPE_CLOSED) {}
   SdBaseFile(const char* path, uint8_t oflag);

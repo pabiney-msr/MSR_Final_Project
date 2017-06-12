@@ -448,9 +448,9 @@
     #define Y_DIR_PIN          61
     #define Y_ENABLE_PIN       56
 //    #define Y_MIN_PIN          14
-#define Y_MIN_PIN          42
+    #define Y_MIN_PIN          42
     #define Y_MAX_PIN          43
-    #define Y_MAX_PIN          15
+    //#define Y_MAX_PIN          15
 
     #define Z_STEP_PIN         46
     #define Z_DIR_PIN          48
@@ -499,7 +499,6 @@
   #else
     #define FAN_PIN            4 // IO pin. Buffer needed
   #endif
-  #define CONTROLLERFAN_PIN    7
   #if MOTHERBOARD == 77
     #define FAN_PIN            8
   #endif
@@ -509,6 +508,8 @@
   #endif
   #if MOTHERBOARD == 35
     #define CONTROLLERFAN_PIN  10 //Pin used for the fan to cool controller
+  #else
+    #define CONTROLLERFAN_PIN  7
   #endif
 
   #define PS_ON_PIN        -1 // 12 NOT USE

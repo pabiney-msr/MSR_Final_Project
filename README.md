@@ -72,7 +72,7 @@ The anticipated outcome is a commercial product that will be able to efficiently
 **Summer Schedule**
 <br>
 **Week 1	June 19 – June 23**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA H-Bridge    | 8.00		| 16.0		| 12.00 |
@@ -131,7 +131,11 @@ Weekly Meeting		 |0.50		 |7.50		 |4.00|
 
 **Week 8	August 7 – August 11**
 <br>
-**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+<table>
+<tr>
+<td>**Task**</td><td>**Best**</td><td>**Worst**</td><td>**Avg.**</td><td>**Reality**</td>
+</tr>
+</table>
 --- | --- | --- | --- | ---
 FPGA:Wifi			 |2.00		 |8.00		 |5.00|
 FPGA:Ethernet		 |2.00		 |8.00		 |5.00|

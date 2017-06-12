@@ -88,7 +88,7 @@ Documentation		 | 0.50		 | 2.0		 | 1.25 |
 Weekly Meeting		 | 0.50		 | 7.5		 | 4.00 |
 
 **Week 3	July 3 – July 7**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA–NU32 Interface	 | 8.0		| 16.0		| 12.00 |
@@ -130,12 +130,7 @@ Documentation		 | 0.50		 | 2.00		 | 1.25 |
 Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 8	August 7 – August 11**
-<br>
-<table>
-<tr>
-<td>**Task**</td><td>**Best**</td><td>**Worst**</td><td>**Avg.**</td><td>**Reality**</td>
-</tr>
-</table>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA Wifi			 | 2.00		 | 8.00		 | 5.00 | 
 FPGA Ethernet		 | 2.00		 | 8.00		 | 5.00 | 
@@ -143,7 +138,7 @@ Documentation		 | 0.50		 | 2.00		 | 1.25 |
 Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 9	August 14 – August 18**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA Rotary Encoder	 | 2.00		 | 5.00		 | 3.50 | 
@@ -152,24 +147,24 @@ Documentation		 | 0.50		 | 2.00		 | 1.25 |
 Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 10	August 21 – August 25**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-UI:	Menu			 |1.00		|10.00		 |5.50|
-Documentation		 |0.50		 |2.00		 |1.25|
-Weekly Meeting		 |0.50		 |7.50		 |4.00|
+UI:	Menu			 | 1.00		| 10.00		 | 5.50 |
+Documentation		 | 0.50		 | 2.00		 | 1.25 |
+Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 |
 
 
 **Pool of Other Tasks**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-Open-Source Software	 |2.00		|16.00		 |9.00|
-Flip Bed & Hot-End	 |2.00		|18.00		|10.00|
-Custom Frame		|20.00		|40.00		|30.00|
-Custom Base		|10.00		|40.00		|25.00|
-Custom Hot-End	|10.00		|20.00		|15.00|
-Custom Pump		|10.00		|20.00		|15.00|
-Custom Print Bed|		 |5.00		|10.00		 |7.50|
-Kiln				|10.00		|20.00		|15.00|
-FPGA: MCU Emulation	|30.00		|60.00		|45.00|
+Open-Source Software	 | 2.00		| 16.00		 | 9.00 |
+Flip Bed & Hot-End	 | 2.00		| 18.00		| 10.00 |
+Custom Frame		| 20.00		| 40.00		| 30.00 |
+Custom Base		| 10.00		| 40.00		| 25.00 |
+Custom Hot-End	| 10.00		| 20.00		| 15.00 |
+Custom Pump		| 10.00		| 20.00		| 15.00 |
+Custom Print Bed		 | 5.00		| 10.00		 | 7.50 |
+Kiln				| 10.00		| 20.00		| 15.00 |
+FPGA MCU Emulation	| 30.00		| 60.00		| 45.00 |

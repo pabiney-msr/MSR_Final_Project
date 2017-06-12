@@ -35,8 +35,8 @@ The anticipated outcome is a commercial product that will be able to efficiently
 - Project goals shift to be more feasable.
 
 **Week 5** 
-- Student places order for materials
-- Student begins studying stepper motors
+- Student places order for materials.
+- Student begins studying stepper motors.
 - Student meets with advisers
 
 **Week 6** 
@@ -49,23 +49,25 @@ The anticipated outcome is a commercial product that will be able to efficiently
 
 **Week 8** 
 - Student works on assmbling the printer.
-- Student learns more about the theory behind CNC devices and 3-D printers
+- Student learns more about the theory behind CNC devices and 3-D printers.
 
 **Week 9** 
 - Student works to assemble printer.
-- Student works with laser cutter to gain cross CNC experience for comparison with 3-D printers
+- Student works with laser cutter to gain cross CNC experience for comparison with 3-D printers.
 
 **Week 10** 
-- Student works to get printer to turn on
+- Student works to get printer to turn on.
 - Student works on summer schedule.
+- Student learn Cura
 
 **Week 11** 
-- Student works to get printer to turn on
-- Student works to instal the firmware on the printer
+- Student works to get printer to turn on.
+- Student works to instal the firmware on the printer.
+- Student prints an object with a differnet 3-D printer for experience
 
 **Week 12**
-- Student works to instal the firmware on the printer
-- Student continues debugging printer
+- Student works to instal the firmware on the printer.
+- Student continues debugging printer.
 
 **Summer Schedule**
 <br>

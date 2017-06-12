@@ -52,9 +52,6 @@ The anticipated outcome is a commercial product that will be able to efficiently
 <br>
 **Week 1	June 19 – June 23**
 <br>
-**Weekly** | **Steps**
---- | ---
-
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA:H-Bridge    |8.00		|16.0		|12.00|
@@ -62,70 +59,86 @@ Documentation		|0.50		 |2.0		 |1.25|
 Weekly Meeting	|0.50		 |7.5		 |4.00|
 
 **Week 2	June 26 – June 30**
-Task				|Best 		|Worst		|Avg.		|Reality
---|--|--|--|--
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 FPGA:End-Switch		 |6.00		|12.0		 |9.00|
 Documentation		 |0.50		 |2.0		 |1.25|
 Weekly Meeting		 |0.50		 |7.5		 |4.00|
 
 **Week 3	July 3 – July 7**
-Task				|Best 		|Worst		|Avg.		|Reality
---|--|--|--|--
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 FPGA–NU32 Interface	 |8.0		|16.0		|12.00|
 Documentation		 |0.5		|2.0		 |1.25|
 Weekly Meeting		 |0.5		|7.5		 |4.00|
 
 **Week 4	July 10 – July 14**
-Task				|Best 		|Worst		|Avg.		|Reality
---|--|--|--|--
-FPGA:Temp Sensor		 2.0		 8.0		 5.00
-FPGA:Hot-End Fans	 4.0		 8.0		 6.00
-Documentation		 0.5		 2.0		 1.25
-Weekly Meeting		 0.5		 7.5		 4.00
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
+FPGA:Temp Sensor		 |2.0		 |8.0		 |5.00|
+FPGA:Hot-End Fans	 |4.0		 |8.0		 |6.00|
+Documentation		 |0.5		 |2.0		 |1.25|
+Weekly Meeting		 |0.5		 |7.5		 |4.00|
 
 **Week 5	July 17 – July 21**
-Task				|Best 		|Worst		|Avg.		|Reality
---|--|--|--|--
-FPGA:Hot Bed		 2.0		 8.0		6.00
-Documentation		 0.5		 2.0		1.25
-Weekly Meeting		 0.5		 7.5		4.00
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
+FPGA:Hot Bed		 |2.0		 |8.0		|6.00|
+Documentation		 |0.5		 |2.0		|1.25|
+Weekly Meeting		 |0.5		 |7.5		|4.00|
 
 **Week 6	July 24 – July 28**
-Task				|Best 		|Worst		|Avg.		|Reality
-FPGA:Screen		 8.0		16.0		12.00
-Documentation		 0.5		 2.0		 1.25
-Weekly Meeting		 0.5		 7.5		 4.00
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
+FPGA:Screen		 |8.0		|16.0		|12.00|
+Documentation		 |0.5		 |2.0		 |1.25|
+Weekly Meeting		 |0.5		 |7.5		 |4.00|
 
 **Week 7	July 30 – August 4**
-Task				|Best 		|Worst		|Avg.		|Reality
-FPGA:Hot-End		 2.00		 4.00		 3.0
-FPGA:SD-Card		 2.00		 4.00		 3.0
-Documentation		 0.50		 2.00		 1.25
-Weekly Meeting		 0.50		 7.50		 4.00
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
+FPGA:Hot-End		 |2.00		 |4.00		 |3.0|
+FPGA:SD-Card		 |2.00		 |4.00		 |3.0|
+Documentation		 |0.50		 |2.00		 |1.25|
+Weekly Meeting		 |0.50		 |7.50		 |4.00|
 
 **Week 8	August 7 – August 11**
-Task				|Best 		|Worst		|Avg.		|Reality
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 FPGA:Wifi			 |2.00		 |8.00		 |5.00|
 FPGA:Ethernet		 |2.00		 |8.00		 |5.00|
 Documentation		 |0.50		 |2.00		 |1.25|
 Weekly Meeting		 |0.50		 |7.50		 |4.00|
 
 **Week 9	August 14 – August 18**
-Task				|Best 		|Worst		|Avg.		|Reality
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 FPGA:Rotary Encoder	 |2.00		 |5.00		 |3.50|
 FPGA:USB Port		 |2.00		 |5.00		 |3.50|
 Documentation		 |0.50		 |2.00		 |1.25|
 Weekly Meeting		 |0.50		 |7.50		 |4.00|
 
 **Week 10	August 21 – August 25**
-Task				|Best 		|Worst		|Avg.		|Reality
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 UI:	Menu			 |1.00		|10.00		 |5.50|
 Documentation		 |0.50		 |2.00		 |1.25|
 Weekly Meeting		 |0.50		 |7.50		 |4.00|
 
 
 **Pool of Other Tasks**
-Task				|Best 		|Worst		|Avg.		|Reality
+<br>
+**Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
+--- | --- | --- | --- | ---
 Open-Source Software	 |2.00		|16.00		 |9.00|
 Flip Bed & Hot-End	 |2.00		|18.00		|10.00|
 Custom Frame		|20.00		|40.00		|30.00|

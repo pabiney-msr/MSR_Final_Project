@@ -130,6 +130,7 @@ Documentation		 | 0.50		 | 2.00		 | 1.25 |
 Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 8	August 7 – August 11**
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA Wifi			 | 2.00		 | 8.00		 | 5.00 | 

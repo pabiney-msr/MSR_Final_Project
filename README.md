@@ -73,11 +73,9 @@ The anticipated outcome is a commercial product that will be able to efficiently
 <br>
 **Week 1	June 19 – June 23**
 <br>
-**Weekly** | **Steps**
---- | ---
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA:H-Bridge    | 8.00		| 16.0		| 12.00 |
+FPGA H-Bridge    | 8.00		| 16.0		| 12.00 |
 Documentation		| 0.50		 | 2.0		 | 1.25 |
 Weekly Meeting	| 0.50		 | 7.5		 | 4.00 |
 

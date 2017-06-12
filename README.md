@@ -80,7 +80,7 @@ Documentation		| 0.50		 | 2.0		 | 1.25 |
 Weekly Meeting	| 0.50		 | 7.5		 | 4.00 |
 
 **Week 2	June 26 – June 30**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
 FPGA End-Switch		 | 6.00		| 12.0		 | 9.00 |
@@ -96,38 +96,38 @@ Documentation		 | 0.5		| 2.0		 | 1.25 |
 Weekly Meeting		 | 0.5		| 7.5		 | 4.00 |
 
 **Week 4	July 10 – July 14**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA Temp Sensor		 | 2.0		 | 8.0		 | 5.00 |
-FPGA Hot-End Fans	 | 4.0		 | 8.0		 | 6.00 |
-Documentation		 | 0.5		 | 2.0		 | 1.25 |
-Weekly Meeting		 | 0.5		 | 7.5		 | 4.00 |
+FPGA Temp Sensor		 | 2.0		 | 8.0		 | 5.00 | 
+FPGA Hot-End Fans	 | 4.0		 | 8.0		 | 6.00 | 
+Documentation		 | 0.5		 | 2.0		 | 1.25 | 
+Weekly Meeting		 | 0.5		 | 7.5		 | 4.00 | 
 
 **Week 5	July 17 – July 21**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA Hot Bed		 | 2.0		 | 8.0		| 6.00 |
-Documentation		 | 0.5		 | 2.0		| 1.25 |
-Weekly Meeting		 | 0.5		 | 7.5		| 4.00 |
+FPGA Hot Bed		 | 2.0		 | 8.0		| 6.00 | 
+Documentation		 | 0.5		 | 2.0		| 1.25 | 
+Weekly Meeting		 | 0.5		 | 7.5		| 4.00 | 
 
 **Week 6	July 24 – July 28**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA Screen		 | 8.0		| 16.0		| 12.00 |
-Documentation		 | 0.5		 | 2.0		 | 1.25 |
-Weekly Meeting		 | 0.5		 | 7.5		 | 4.00 |
+FPGA Screen		 | 8.0		| 16.0		| 12.00 | 
+Documentation		 | 0.5		 | 2.0		 | 1.25 | 
+Weekly Meeting		 | 0.5		 | 7.5		 | 4.00 | 
 
 **Week 7	July 30 – August 4**
-<br>
+
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA Hot-End		 | 2.00		 | 4.00		 | 3.0 |
-FPGA SD-Card		 | 2.00		 | 4.00		 | 3.0 |
-Documentation		 | 0.50		 | 2.00		 | 1.25 |
-Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 |
+FPGA Hot-End		 | 2.00		 | 4.00		 | 3.0 | 
+FPGA SD-Card		 | 2.00		 | 4.00		 | 3.0 | 
+Documentation		 | 0.50		 | 2.00		 | 1.25 | 
+Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 8	August 7 – August 11**
 <br>
@@ -137,19 +137,19 @@ Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 |
 </tr>
 </table>
 --- | --- | --- | --- | ---
-FPGA Wifi			 | 2.00		 | 8.00		 | 5.00 |
-FPGA Ethernet		 | 2.00		 | 8.00		 | 5.00 |
-Documentation		 | 0.50		 | 2.00		 | 1.25 |
-Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 |
+FPGA Wifi			 | 2.00		 | 8.00		 | 5.00 | 
+FPGA Ethernet		 | 2.00		 | 8.00		 | 5.00 | 
+Documentation		 | 0.50		 | 2.00		 | 1.25 | 
+Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 9	August 14 – August 18**
 <br>
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA Rotary Encoder	 | 2.00		 | 5.00		 | 3.50 |
-FPGA USB Port		 | 2.00		 | 5.00		 | 3.50 |
-Documentation		 | 0.50		 | 2.00		 | 1.25 |
-Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 |
+FPGA Rotary Encoder	 | 2.00		 | 5.00		 | 3.50 | 
+FPGA USB Port		 | 2.00		 | 5.00		 | 3.50 | 
+Documentation		 | 0.50		 | 2.00		 | 1.25 | 
+Weekly Meeting		 | 0.50		 | 7.50		 | 4.00 | 
 
 **Week 10	August 21 – August 25**
 <br>

@@ -51,6 +51,7 @@ The anticipated outcome is a commercial product that will be able to efficiently
 **Summer Schedule**
 <br>
 **Week 1	June 19 – June 23**
+--- | ---
 Task				| Best 		| Worst		| Avg.		| Reality
 --- | --- | --- | --- | ---
 FPGA:H-Bridge    |8.00		|16.0		|12.00|

@@ -18,45 +18,66 @@ The anticipated outcome is a commercial product that will be able to efficiently
 **Spring Schedule**
 <br>
 **Week 1** 
-- Student makes first contact with advisor and establishes weekly meeting times.
-- Student presents initial idea to advisor.
+- Student makes first contact with adviser and establishes weekly meeting times.
+- Student presents initial idea to adviser.
 
 **Week 2** 
-- Student meets with advisor to discuss circuitry with advisor.
+- Student meets with adviser to discuss circuitry with adviser.
 - Advisor instructs stu
 
 **Week 3** 
-- Student meet with advisor to discuss initial hardware to order.
+- Student meets with adviser to discuss initial hardware to order.
 - Student presents chips to advisor.
 - Advisor instructs student to investigate 3-D printer kits and FPGA development boards.
 
 **Week 4** 
+- Student meets with both project advisers to evaluate goals for the quarter.
+- Project goals shift to be more feasable.
 
 **Week 5** 
+- Student places order for materials
+- Student begins studying stepper motors
+- Student meets with advisers
 
 **Week 6** 
+- Student continues to study stepper motors
+- Student meets with one adviser this week.
 
 **Week 7** 
+- Student receives shipment.
+- Student begins to assemble the printer.
 
 **Week 8** 
+- Student works on assmbling the printer.
+- Student learns more about the theory behind CNC devices and 3-D printers
 
 **Week 9** 
+- Student works to assemble printer.
+- Student works with laser cutter to gain cross CNC experience for comparison with 3-D printers
 
 **Week 10** 
+- Student works to get printer to turn on
+- Student works on summer schedule.
 
 **Week 11** 
+- Student works to get printer to turn on
+- Student works to instal the firmware on the printer
 
 **Week 12**
+- Student works to instal the firmware on the printer
+- Student continues debugging printer
 
 **Summer Schedule**
 <br>
+**Weekly** | **Steps**
+--- | ---
 **Week 1	June 19 – June 23**
 <br>
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA:H-Bridge    |8.00		|16.0		|12.00|
-Documentation		|0.50		 |2.0		 |1.25|
-Weekly Meeting	|0.50		 |7.5		 |4.00|
+FPGA:H-Bridge    | 8.00		| 16.0		| 12.00 |
+Documentation		| 0.50		 | 2.0		 | 1.25 |
+Weekly Meeting	| 0.50		 | 7.5		 | 4.00 |
 
 **Week 2	June 26 – June 30**
 <br>

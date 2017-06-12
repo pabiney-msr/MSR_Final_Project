@@ -3,16 +3,16 @@
 Originally a 3-D borosilicate glass printer similar to the ones currently developed. Current end of project goal is ambiguous, yet to be defined/agreed upon by my instructors, and/or dependent on the progress made over summer. End summer goal is a 3-D printer kit with a FPGA-MCU bridge.
 
 # Original Proposal
-##Brief Project Description
+## Brief Project Description
 The student would work with Prof. Nick Marchuk to design and implement a 3-D printer capable of printing borosilicate glass. The basic idea is that the 3-D printer should be able to melt and extrude borosilicate glass with a custom kiln and hot-end respectively. The hot-end will be fixed and the heated bed will move in XYZ directions.
  
-##Needed Expertise
+## Needed Expertise
 Robot Operating System (ROS), forward and inverse kinematics (ROS, IKFast, KDL), programming (python, C, C++), material selection and procurement, mechatronics, part design (AutoCAD), PCB design, end production pipeline.
  
-##Responsibilities
+## Responsibilities
 The student will work with Prof. Marchuk during the spring and fall of 2017. The student will be responsible for designing any needed parts, selecting and ordering needed materials, and implementing the final design. The student will also develop the end user interface application. The student will work together with Prof. Marchuk to overcome any hurdles like material selection, PCB and part design, programming, etc.
  
-##Expected Outcomes
+## Expected Outcomes
 The anticipated outcome is a commercial product that will be able to efficiently melt and print borosilicate glass, as well as provide an end user application.
 
 **Spring Schedule**

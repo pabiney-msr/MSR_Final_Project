@@ -83,9 +83,9 @@ Weekly Meeting	| 0.50		 | 7.5		 | 4.00 |
 <br>
 **Task**				| **Best** 		| **Worst**		| **Avg.**		| **Reality**
 --- | --- | --- | --- | ---
-FPGA:End-Switch		 |6.00		|12.0		 |9.00|
-Documentation		 |0.50		 |2.0		 |1.25|
-Weekly Meeting		 |0.50		 |7.5		 |4.00|
+FPGA:End-Switch		 | 6.00		| 12.0		 | 9.00 |
+Documentation		 | 0.50		 | 2.0		 | 1.25 |
+Weekly Meeting		 | 0.50		 | 7.5		 | 4.00 |
 
 **Week 3	July 3 – July 7**
 <br>

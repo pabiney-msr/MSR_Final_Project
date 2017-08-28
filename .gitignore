@@ -1,1 +1,24 @@
 *~
+/Diamond Projects/3D Printer Controller/PrinterController3D_tcr.dir
+/Diamond Projects/3D Printer Controller/impl1
+
+/Diamond Projects/Demo_LED/Demo_LED_osc_tcr.dir
+/Diamond Projects/Demo_LED/impl1
+
+/Diamond Projects/H-Bridge/H_Bridge_tcr.dir
+/Diamond Projects/H-Bridge/impl1
+
+/Diamond Projects/H-Bridge Controller/HBridgeController_tcr.dir
+/Diamond Projects/H-Bridge Controller/impl1
+
+/Diamond Projects/PWM/impl1
+/Diamond Projects/PWM/PWM_tcr.dir
+
+*.html
+*.ini
+*.recovery
+*.xml
+*.ldf
+*.sty
+*.pty
+

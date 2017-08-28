@@ -1,0 +1,231 @@
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+USE PRIMARY NET "osc_clk_inferred_clock" ;
+IOBUF ALLPORTS IO_TYPE=LVCMOS33 ;
+LOCATE COMP "LED_0" SITE "P16" ;	#  LED D1	J9 pin 39
+LOCATE COMP "LED_1" SITE "P15" ;	#  LED D2	J9 pin 37
+LOCATE COMP "LED_2" SITE "R16" ;	#  LED D3	J9 pin 35
+LOCATE COMP "LED_3" SITE "R15" ;	#  LED D4	J9 pin 33
+LOCATE COMP "LED_4" SITE "P14" ;	#  LED D5	J9 pin 31
+LOCATE COMP "LED_5" SITE "T15" ;	#  LED D6	J9 pin 29
+LOCATE COMP "LED_6" SITE "T14" ;	#  LED D7	J9 pin 27
+LOCATE COMP "LED_7" SITE "R14" ;	#  LED D8	J9 pin 25
+#
+#LOCATE COMP "clk" SITE "D7" ;		#  J9 pin 11
+#LOCATE COMP "osc_clk" SITE "A9" ;	#  J9 pin 13
+#LOCATE COMP "rstn" SITE "N9" ;		#  J9 pin 15
+#
+#LOCATE COMP "signal_name0" SITE "M9" ;		#  J9 pin 17
+#
+LOCATE COMP "X_Motor_0" SITE "H2" ;		#  J3 pin  2
+LOCATE COMP "X_Motor_1" SITE "J2" ;		#  J3 pin  4
+LOCATE COMP "X_Motor_2" SITE "J1" ;		#  J3 pin  8
+LOCATE COMP "X_Motor_3" SITE "K1" ;		#  J3 pin 10
+LOCATE COMP "Y_Motor_0" SITE "L1" ;		#  J3 pin 14
+LOCATE COMP "Y_Motor_1" SITE "M1" ;		#  J3 pin 16
+LOCATE COMP "Y_Motor_2" SITE "L3" ;		#  J3 pin 20
+LOCATE COMP "Y_Motor_3" SITE "M3" ;		#  J3 pin 22
+LOCATE COMP "Z_Motor_0" SITE "J4" ;		#  J3 pin 26
+LOCATE COMP "Z_Motor_1" SITE "J5" ;		#  J3 pin 28
+LOCATE COMP "Z_Motor_2" SITE "K5" ;		#  J3 pin 32
+LOCATE COMP "Z_Motor_3" SITE "K4" ;		#  J3 pin 34
+#LOCATE COMP "signal_name12" SITE "M5" ;	#  J3 pin 38
+#LOCATE COMP "signal_name13" SITE "M4" ;	#  J3 pin 40
+#
+LOCATE COMP "X_Limit_Switch" SITE "E4" ;		#  J3 pin  1
+LOCATE COMP "Y_Limit_Switch" SITE "E5" ;		#  J3 pin  3
+LOCATE COMP "Z_Limit_Switch" SITE "F5" ;		#  J3 pin  7
+#LOCATE COMP "signal_name3" SITE "F6" ;		#  J3 pin  9
+#LOCATE COMP "signal_name4" SITE "E3" ;		#  J3 pin 13
+#LOCATE COMP "signal_name5" SITE "E2" ;		#  J3 pin 15
+#LOCATE COMP "signal_name6" SITE "B1" ;		#  J3 pin 19
+#LOCATE COMP "signal_name7" SITE "C1" ;		#  J3 pin 21
+#LOCATE COMP "signal_name8" SITE "F2" ;		#  J3 pin 25
+#LOCATE COMP "signal_name9" SITE "G2" ;		#  J3 pin 27
+#LOCATE COMP "signal_name10" SITE "G4" ;	#  J3 pin 31
+#LOCATE COMP "signal_name11" SITE "G5" ;	#  J3 pin 33
+#LOCATE COMP "signal_name12" SITE "H4" ;	#  J3 pin 37
+#LOCATE COMP "signal_name13" SITE "H5" ;	#  J3 pin 39
+#
+#LOCATE COMP "signal_name6" SITE "M2" ;		#  J4 pin 26
+#LOCATE COMP "signal_name7" SITE "N2" ;		#  J4 pin 28
+#LOCATE COMP "signal_name8" SITE "R1" ;		#  J4 pin 30
+#LOCATE COMP "signal_name9" SITE "R2" ;		#  J4 pin 32
+#LOCATE COMP "signal_name10" SITE "L5" ;	#  J4 pin 34
+#LOCATE COMP "signal_name11" SITE "L4" ;	#  J4 pin 36
+#LOCATE COMP "signal_name12" SITE "N4" ;	#  J4 pin 38
+#LOCATE COMP "signal_name13" SITE "N3" ;	#  J4 pin 40
+#
+#LOCATE COMP "signal_name0" SITE "F3" ;		#  J4 pin  1
+#LOCATE COMP "signal_name1" SITE "F4" ;		#  J4 pin  3
+#LOCATE COMP "signal_name2" SITE "C3" ;		#  J4 pin  5
+#LOCATE COMP "signal_name3" SITE "C2" ;		#  J4 pin  7
+#LOCATE COMP "signal_name4" SITE "D2" ;		#  J4 pin  9
+#LOCATE COMP "signal_name5" SITE "D1" ;		#  J4 pin 11
+#LOCATE COMP "signal_name6" SITE "E1" ;		#  J4 pin 13
+#LOCATE COMP "signal_name7" SITE "F1" ;		#  J4 pin 15
+#LOCATE COMP "signal_name8" SITE "G3" ;		#  J4 pin 17
+#LOCATE COMP "signal_name9" SITE "H3" ;		#  J4 pin 19
+#LOCATE COMP "signal_name10" SITE "G1" ;	#  J4 pin 21
+#LOCATE COMP "signal_name11" SITE "H1" ;	#  J4 pin 23
+#LOCATE COMP "signal_name0" SITE "J3" ;		#  J4 pin 29
+#LOCATE COMP "signal_name1" SITE "K3" ;		#  J4 pin 31
+#LOCATE COMP "signal_name2" SITE "K2" ;		#  J4 pin 33
+#LOCATE COMP "signal_name3" SITE "L2" ;		#  J4 pin 35
+#LOCATE COMP "signal_name4" SITE "N1" ;		#  J4 pin 37
+#LOCATE COMP "signal_name5" SITE "P1" ;		#  J4 pin 39
+#
+#LOCATE COMP "signal_name0" SITE "D8" ;		#  J5 pin  2
+#LOCATE COMP "signal_name1" SITE "E8" ;		#  J5 pin  4
+#LOCATE COMP "signal_name2" SITE "E9" ;		#  J5 pin  6
+#LOCATE COMP "signal_name3" SITE "A10" ;	#  J5 pin  8
+#LOCATE COMP "signal_name4" SITE "C9" ;		#  J5 pin 10
+#LOCATE COMP "signal_name5" SITE "C10" ;	#  J5 pin 12
+#LOCATE COMP "signal_name6" SITE "D9" ;		#  J5 pin 14
+#LOCATE COMP "signal_name7" SITE "D10" ;	#  J5 pin 16
+#LOCATE COMP "signal_name8" SITE "B9" ;		#  J5 pin 18
+#LOCATE COMP "signal_name9" SITE "B10" ;	#  J5 pin 20
+#LOCATE COMP "signal_name10" SITE "A11" ;	#  J5 pin 22
+#LOCATE COMP "signal_name11" SITE "A12" ;	#  J5 pin 24
+#LOCATE COMP "signal_name12" SITE "B11" ;	#  J5 pin 26
+#LOCATE COMP "signal_name13" SITE "B12" ;	#  J5 pin 28
+#LOCATE COMP "signal_name14" SITE "C11" ;	#  J5 pin 30
+#LOCATE COMP "signal_name15" SITE "C12" ;	#  J5 pin 32
+#LOCATE COMP "signal_name16" SITE "A13" ;	#  J5 pin 34
+#LOCATE COMP "signal_name17" SITE "A14" ;	#  J5 pin 36
+#LOCATE COMP "signal_name18" SITE "D11" ;	#  J5 pin 38
+#LOCATE COMP "signal_name19" SITE "D12" ;	#  J5 pin 40
+#
+#LOCATE COMP "signal_name0" SITE "B2" ;		#  J5 pin  1
+#LOCATE COMP "signal_name1" SITE "B3" ;		#  J5 pin  3
+#LOCATE COMP "signal_name2" SITE "A2" ;		#  J5 pin  5
+#LOCATE COMP "signal_name3" SITE "A3" ;		#  J5 pin  7
+#LOCATE COMP "signal_name4" SITE "D3" ;		#  J5 pin  9
+#LOCATE COMP "signal_name5" SITE "D4" ;		#  J5 pin 11
+#LOCATE COMP "signal_name6" SITE "C4" ;		#  J5 pin 13
+#LOCATE COMP "signal_name7" SITE "C5" ;		#  J5 pin 15
+#LOCATE COMP "signal_name8" SITE "D6" ;		#  J5 pin 17
+#LOCATE COMP "signal_name9" SITE "D5" ;		#  J5 pin 19
+#LOCATE COMP "signal_name10" SITE "B4" ;	#  J5 pin 21
+#LOCATE COMP "signal_name11" SITE "B5" ;	#  J5 pin 23
+#LOCATE COMP "signal_name12" SITE "E7" ;	#  J5 pin 25
+#LOCATE COMP "signal_name13" SITE "E6" ;	#  J5 pin 27
+#LOCATE COMP "signal_name14" SITE "A5" ;	#  J5 pin 29
+#LOCATE COMP "signal_name15" SITE "A4" ;	#  J5 pin 31
+#LOCATE COMP "signal_name16" SITE "C6" ;	#  J5 pin 33
+#LOCATE COMP "signal_name17" SITE "C7" ;	#  J5 pin 35
+#LOCATE COMP "signal_name18" SITE "B6" ;	#  J5 pin 37
+#LOCATE COMP "signal_name19" SITE "B7" ;	#  J5 pin 39
+#
+#LOCATE COMP "signal_name0" SITE "E10" ;	#  J6 pin 22
+#LOCATE COMP "signal_name1" SITE "E11" ;	#  J6 pin 24
+#LOCATE COMP "signal_name2" SITE "B13" ;	#  J6 pin 26
+#LOCATE COMP "signal_name3" SITE "C13" ;	#  J6 pin 28
+#LOCATE COMP "signal_name4" SITE "B14" ;	#  J6 pin 30
+#LOCATE COMP "signal_name5" SITE "C14" ;	#  J6 pin 32
+#LOCATE COMP "signal_name6" SITE "A15" ;	#  J6 pin 34
+#LOCATE COMP "signal_name7" SITE "B15" ;	#  J6 pin 36
+#
+#LOCATE COMP "signal_name0" SITE "A6" ;		#  J6 pin 29
+#LOCATE COMP "signal_name1" SITE "A7" ;		#  J6 pin 31
+#LOCATE COMP "signal_name2" SITE "B8" ;		#  J6 pin 33
+#LOCATE COMP "signal_name3" SITE "C8" ;		#  J6 pin 35
+#
+#LOCATE COMP "signal_name6" SITE "M16" ;	#  J7 pin 26
+#LOCATE COMP "signal_name7" SITE "N16" ;	#  J7 pin 28
+#LOCATE COMP "signal_name8" SITE "L12" ;	#  J7 pin 30
+#LOCATE COMP "signal_name9" SITE "L13" ;	#  J7 pin 32
+#LOCATE COMP "signal_name10" SITE "M12" ;	#  J7 pin 34
+#LOCATE COMP "signal_name11" SITE "M13" ;	#  J7 pin 36
+#LOCATE COMP "signal_name12" SITE "L11" ;	#  J7 pin 38
+#LOCATE COMP "signal_name13" SITE "M11" ;	#  J7 pin 40
+#
+#LOCATE COMP "signal_name0" SITE "F13" ;	#  J7 pin  1
+#LOCATE COMP "signal_name1" SITE "F12" ;	#  J7 pin  3
+#LOCATE COMP "signal_name2" SITE "B16" ;	#  J7 pin  5
+#LOCATE COMP "signal_name3" SITE "C16" ;	#  J7 pin  7
+#LOCATE COMP "signal_name4" SITE "D16" ;	#  J7 pin  9
+#LOCATE COMP "signal_name5" SITE "E16" ;	#  J7 pin 11
+#LOCATE COMP "signal_name6" SITE "F16" ;	#  J7 pin 13
+#LOCATE COMP "signal_name7" SITE "G16" ;	#  J7 pin 15
+#LOCATE COMP "signal_name8" SITE "H12" ;	#  J7 pin 17
+#LOCATE COMP "signal_name9" SITE "H13" ;	#  J7 pin 19
+#LOCATE COMP "signal_name10" SITE "G15" ;	#  J7 pin 21
+#LOCATE COMP "signal_name11" SITE "H15" ;	#  J7 pin 23
+#LOCATE COMP "signal_name0" SITE "J12" ;	#  J7 pin 29
+#LOCATE COMP "signal_name1" SITE "K12" ;	#  J7 pin 31
+#LOCATE COMP "signal_name2" SITE "J14" ;	#  J7 pin 33
+#LOCATE COMP "signal_name3" SITE "K14" ;	#  J7 pin 35
+#LOCATE COMP "signal_name4" SITE "K16" ;	#  J7 pin 37
+#LOCATE COMP "signal_name5" SITE "L16" ;	#  J7 pin 39
+#
+#LOCATE COMP "signal_name0" SITE "H16" ;	#  J8 pin  2
+#LOCATE COMP "signal_name1" SITE "J16" ;	#  J8 pin  4
+#LOCATE COMP "signal_name2" SITE "J15" ;	#  J8 pin  8
+#LOCATE COMP "signal_name3" SITE "K15" ;	#  J8 pin 10
+#LOCATE COMP "signal_name4" SITE "J13" ;	#  J8 pin 14
+#LOCATE COMP "signal_name5" SITE "K13" ;	#  J8 pin 16
+#LOCATE COMP "signal_name6" SITE "L15" ;	#  J8 pin 20
+#LOCATE COMP "signal_name7" SITE "M15" ;	#  J8 pin 22
+#LOCATE COMP "signal_name8" SITE "L14" ;	#  J8 pin 26
+#LOCATE COMP "signal_name9" SITE "M14" ;	#  J8 pin 28
+#LOCATE COMP "signal_name10" SITE "N15" ;	#  J8 pin 32
+#LOCATE COMP "signal_name11" SITE "N14" ;	#  J8 pin 34
+#LOCATE COMP "signal_name12" SITE "N13" ;	#  J8 pin 38
+#LOCATE COMP "signal_name13" SITE "N12" ;	#  J8 pin 40
+#
+#LOCATE COMP "signal_name0" SITE "D14" ;	#  J8 pin  1
+#LOCATE COMP "signal_name1" SITE "D13" ;	#  J8 pin  3
+#LOCATE COMP "signal_name2" SITE "E13" ;	#  J8 pin  7
+#LOCATE COMP "signal_name3" SITE "E12" ;	#  J8 pin  9
+#LOCATE COMP "signal_name4" SITE "E14" ;	#  J8 pin 13
+#LOCATE COMP "signal_name5" SITE "F14" ;	#  J8 pin 15
+#LOCATE COMP "signal_name6" SITE "C15" ;	#  J8 pin 19
+#LOCATE COMP "signal_name7" SITE "D15" ;	#  J8 pin 21
+#LOCATE COMP "signal_name8" SITE "E15" ;	#  J8 pin 25
+#LOCATE COMP "signal_name9" SITE "F15" ;	#  J8 pin 27
+#LOCATE COMP "signal_name10" SITE "G12" ;	#  J8 pin 31
+#LOCATE COMP "signal_name11" SITE "G13" ;	#  J8 pin 33
+#LOCATE COMP "signal_name12" SITE "G14" ;	#  J8 pin 37
+#LOCATE COMP "signal_name13" SITE "H14" ;	#  J8 pin 39
+#
+#LOCATE COMP "signal_name0" SITE "P2" ;		#  J10 pin  2
+#LOCATE COMP "signal_name1" SITE "P3" ;		#  J10 pin  4
+#LOCATE COMP "signal_name2" SITE "N5" ;		#  J10 pin  6
+#LOCATE COMP "signal_name3" SITE "N6" ;		#  J10 pin  8
+#LOCATE COMP "signal_name4" SITE "T2" ;		#  J10 pin 10
+#LOCATE COMP "signal_name5" SITE "T3" ;		#  J10 pin 12
+#LOCATE COMP "signal_name6" SITE "R4" ;		#  J10 pin 14
+#LOCATE COMP "signal_name7" SITE "R5" ;		#  J10 pin 16
+#LOCATE COMP "signal_name8" SITE "P5" ;		#  J10 pin 18
+#LOCATE COMP "signal_name9" SITE "P6" ;		#  J10 pin 20
+#LOCATE COMP "signal_name10" SITE "T5" ;	#  J10 pin 22
+#LOCATE COMP "signal_name11" SITE "T4" ;	#  J10 pin 24
+#LOCATE COMP "signal_name12" SITE "R6" ;	#  J10 pin 26
+#LOCATE COMP "signal_name13" SITE "T6" ;	#  J10 pin 28
+#LOCATE COMP "signal_name14" SITE "T8" ;	#  J10 pin 30
+#LOCATE COMP "signal_name15" SITE "T7" ;	#  J10 pin 32
+#LOCATE COMP "signal_name16" SITE "M7" ;	#  J10 pin 34
+#LOCATE COMP "signal_name17" SITE "M8" ;	#  J10 pin 36
+#LOCATE COMP "signal_name18" SITE "R7" ;	#  J10 pin 38
+#LOCATE COMP "signal_name19" SITE "R8" ;	#  J10 pin 40
+#
+#LOCATE COMP "signal_name0" SITE "P8" ;		#  J10 pin  1
+#LOCATE COMP "signal_name1" SITE "P7" ;		#  J10 pin  3
+#LOCATE COMP "signal_name2" SITE "N8" ;		#  J10 pin  5
+#LOCATE COMP "signal_name3" SITE "P9" ;		#  J10 pin  7
+#LOCATE COMP "signal_name4" SITE "P10" ;	#  J10 pin  9
+#LOCATE COMP "signal_name5" SITE "M10" ;	#  J10 pin 11
+#LOCATE COMP "signal_name6" SITE "R9" ;		#  J10 pin 13
+#LOCATE COMP "signal_name7" SITE "R10" ;	#  J10 pin 15
+#LOCATE COMP "signal_name8" SITE "T10" ;	#  J10 pin 17
+#LOCATE COMP "signal_name9" SITE "T11" ;	#  J10 pin 19
+#LOCATE COMP "signal_name10" SITE "N10" ;	#  J10 pin 21
+#LOCATE COMP "signal_name11" SITE "N11" ;	#  J10 pin 23
+#LOCATE COMP "signal_name12" SITE "R11" ;	#  J10 pin 25
+#LOCATE COMP "signal_name13" SITE "R12" ;	#  J10 pin 27
+#LOCATE COMP "signal_name14" SITE "P11" ;	#  J10 pin 29
+#LOCATE COMP "signal_name15" SITE "P12" ;	#  J10 pin 31
+#LOCATE COMP "signal_name16" SITE "T13" ;	#  J10 pin 33
+#LOCATE COMP "signal_name17" SITE "T12" ;	#  J10 pin 35
+#LOCATE COMP "signal_name18" SITE "R13" ;	#  J10 pin 37

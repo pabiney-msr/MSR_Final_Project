@@ -19,10 +19,10 @@ LOCATE COMP "rstn" SITE "N9" ;		#  J9 pin 15
 #
 #LOCATE COMP "signal_name0" SITE "H2" ;		#  J3 pin  2
 #LOCATE COMP "signal_name1" SITE "J2" ;		#  J3 pin  4
-#LOCATE COMP "signal_name2" SITE "J1" ;		#  J3 pin  8
-#LOCATE COMP "signal_name3" SITE "K1" ;		#  J3 pin 10
-#LOCATE COMP "signal_name4" SITE "L1" ;		#  J3 pin 14
-#LOCATE COMP "signal_name5" SITE "M1" ;		#  J3 pin 16
+LOCATE COMP "Motor_0" SITE "J1" ;		#  J3 pin  8
+LOCATE COMP "Motor_2" SITE "K1" ;		#  J3 pin 10
+LOCATE COMP "Motor_4" SITE "L1" ;		#  J3 pin 14
+LOCATE COMP "Motor_6" SITE "M1" ;		#  J3 pin 16
 #LOCATE COMP "signal_name6" SITE "L3" ;		#  J3 pin 20
 #LOCATE COMP "signal_name7" SITE "M3" ;		#  J3 pin 22
 #LOCATE COMP "signal_name8" SITE "J4" ;		#  J3 pin 26
@@ -34,10 +34,10 @@ LOCATE COMP "rstn" SITE "N9" ;		#  J9 pin 15
 #
 #LOCATE COMP "signal_name0" SITE "E4" ;		#  J3 pin  1
 #LOCATE COMP "signal_name1" SITE "E5" ;		#  J3 pin  3
-#LOCATE COMP "signal_name2" SITE "F5" ;		#  J3 pin  7
-#LOCATE COMP "signal_name3" SITE "F6" ;		#  J3 pin  9
-#LOCATE COMP "signal_name4" SITE "E3" ;		#  J3 pin 13
-#LOCATE COMP "signal_name5" SITE "E2" ;		#  J3 pin 15
+LOCATE COMP "Motor_1" SITE "F5" ;		#  J3 pin  7
+LOCATE COMP "Motor_3" SITE "F6" ;		#  J3 pin  9
+LOCATE COMP "Motor_5" SITE "E3" ;		#  J3 pin 13
+LOCATE COMP "Motor_7" SITE "E2" ;		#  J3 pin 15
 #LOCATE COMP "signal_name6" SITE "B1" ;		#  J3 pin 19
 #LOCATE COMP "signal_name7" SITE "C1" ;		#  J3 pin 21
 #LOCATE COMP "signal_name8" SITE "F2" ;		#  J3 pin 25

@@ -1,8 +1,9 @@
 // PWM LED
-module PWM (rstn, osc_clk, LED, clk );
+module PWM (rstn, osc_clk, LED, Motor, clk );
 	input 	rstn ;
 	output	osc_clk ;
 	output 	[7:0]LED ;			// 8 seperate LEDs
+	output 	[7:0]Motor;			// 8 seperate LEDs
 	output 	clk ;
 
 	reg		[22:0]c_delay ;
@@ -32,16 +33,28 @@ module PWM (rstn, osc_clk, LED, clk );
 	assign compare_value[7] = 3'd7;
 	generate
 		genvar i ;
-		for (i = 0; i < 8; i = i + 1) begin
+		for (i = 0; i < 7; i = i + 1) begin
 			pwm #(.CTR_LEN(3)) pwms (
 				.rst(rst),
 				.clk(clk),
 				.compare(compare_value[i]),
 				.pwm(LED[i])
 			);
+			pwm #(.CTR_LEN(3)) pwms_2 (
+				.rst(rst),
+				.clk(clk),
+				.compare(compare_value[i]),
+				.pwm(Motor[i])
+			);
 		end;
 	endgenerate;
 	// PWM STUFF END
+	reg test;
+	assign Motor[7] = test;
+	assign LED[7] = test;
+	always @(*) begin
+		test <= 1'b0;
+	end
 endmodule
 
 module pwm #(parameter CTR_LEN = 8) (

@@ -2,6 +2,8 @@ BLOCK RESETPATHS ;
 BLOCK ASYNCPATHS ;
 USE PRIMARY NET "osc_clk_inferred_clock" ;
 IOBUF ALLPORTS IO_TYPE=LVCMOS33 ;
+#
+# LED Pins
 LOCATE COMP "LED_0" SITE "P16" ;	#  LED D1	J9 pin 39
 LOCATE COMP "LED_1" SITE "P15" ;	#  LED D2	J9 pin 37
 LOCATE COMP "LED_2" SITE "R16" ;	#  LED D3	J9 pin 35
@@ -11,56 +13,93 @@ LOCATE COMP "LED_5" SITE "T15" ;	#  LED D6	J9 pin 29
 LOCATE COMP "LED_6" SITE "T14" ;	#  LED D7	J9 pin 27
 LOCATE COMP "LED_7" SITE "R14" ;	#  LED D8	J9 pin 25
 #
-#LOCATE COMP "clk" SITE "D7" ;		#  J9 pin 11
-#LOCATE COMP "osc_clk" SITE "A9" ;	#  J9 pin 13
-#LOCATE COMP "rstn" SITE "N9" ;		#  J9 pin 15
+LOCATE COMP "clk" SITE "D7" ;		#  J9 pin 11
+LOCATE COMP "osc_clk" SITE "A9" ;	#  J9 pin 13
+LOCATE COMP "rstn" SITE "N9" ;		#  J9 pin 15
 #
 #LOCATE COMP "signal_name0" SITE "M9" ;		#  J9 pin 17
 #
-LOCATE COMP "X_Motor_0" SITE "H2" ;		#  J3 pin  2
-LOCATE COMP "X_Motor_1" SITE "J2" ;		#  J3 pin  4
-LOCATE COMP "X_Motor_2" SITE "J1" ;		#  J3 pin  8
+# FTDI SPI
+#
+# Fan Pins
+LOCATE COMP "Fan_A" SITE "E4" ;		#  J3 pin  1
+LOCATE COMP "Fan_B" SITE "H2" ;		#  J3 pin  2
+#
+# Hot End
+LOCATE COMP "HotEnd" SITE "F3" ;	#  J4 pin  1
+#
+# Thermistor ADC: ADC141S626
+LOCATE COMP "Thermistor_CS" 	SITE "E5" ;		#  J3 pin  3
+LOCATE COMP "Thermistor_Clock" 	SITE "J2" ;		#  J3 pin  4
+LOCATE COMP "Thermistor_Data" 	SITE "F4" ;		#  J4 pin  3
+#
+# J3 pin 5 is GND
+# J3 pin 6 is GND
+#
+# X-Motor Controller A4988
+LOCATE COMP "X_Motor_0" SITE "F5" ;		#  J3 pin  7
+LOCATE COMP "X_Motor_1" SITE "J1" ;		#  J3 pin  8
+LOCATE COMP "X_Motor_2" SITE "F6" ;		#  J3 pin  9
 LOCATE COMP "X_Motor_3" SITE "K1" ;		#  J3 pin 10
-LOCATE COMP "Y_Motor_0" SITE "L1" ;		#  J3 pin 14
-LOCATE COMP "Y_Motor_1" SITE "M1" ;		#  J3 pin 16
-LOCATE COMP "Y_Motor_2" SITE "L3" ;		#  J3 pin 20
+# J3 pin 11 is GND
+# J3 pin 12 is GND
+LOCATE COMP "X_Motor_4" SITE "E3" ;		#  J3 pin 13
+LOCATE COMP "X_Motor_5" SITE "L1" ;		#  J3 pin 14
+LOCATE COMP "X_Motor_6" SITE "E2" ;		#  J3 pin 15
+LOCATE COMP "X_Motor_7" SITE "M1" ;		#  J3 pin 16
+# J3 pin 17 is GND
+# J3 pin 18 is GND
+#
+# Y-Motor Controller A4988
+LOCATE COMP "Y_Motor_0" SITE "B1" ;		#  J3 pin 19
+LOCATE COMP "Y_Motor_1" SITE "L3" ;		#  J3 pin 20
+LOCATE COMP "Y_Motor_2" SITE "C1" ;		#  J3 pin 21
 LOCATE COMP "Y_Motor_3" SITE "M3" ;		#  J3 pin 22
-LOCATE COMP "Z_Motor_0" SITE "J4" ;		#  J3 pin 26
-LOCATE COMP "Z_Motor_1" SITE "J5" ;		#  J3 pin 28
-LOCATE COMP "Z_Motor_2" SITE "K5" ;		#  J3 pin 32
-LOCATE COMP "Z_Motor_3" SITE "K4" ;		#  J3 pin 34
-#LOCATE COMP "signal_name12" SITE "M5" ;	#  J3 pin 38
-#LOCATE COMP "signal_name13" SITE "M4" ;	#  J3 pin 40
+# J3 pin 23 is GND
+# J3 pin 24 is GND
+LOCATE COMP "Y_Motor_4" SITE "F2" ;		#  J3 pin 25
+LOCATE COMP "Y_Motor_5" SITE "J4" ;		#  J3 pin 26
+LOCATE COMP "Y_Motor_6" SITE "G2" ;		#  J3 pin 27
+LOCATE COMP "Y_Motor_7" SITE "J5" ;		#  J3 pin 28
 #
-LOCATE COMP "X_Limit_Switch" SITE "E4" ;		#  J3 pin  1
-LOCATE COMP "Y_Limit_Switch" SITE "E5" ;		#  J3 pin  3
-LOCATE COMP "Z_Limit_Switch" SITE "F5" ;		#  J3 pin  7
-#LOCATE COMP "signal_name3" SITE "F6" ;		#  J3 pin  9
-#LOCATE COMP "signal_name4" SITE "E3" ;		#  J3 pin 13
-#LOCATE COMP "signal_name5" SITE "E2" ;		#  J3 pin 15
-#LOCATE COMP "signal_name6" SITE "B1" ;		#  J3 pin 19
-#LOCATE COMP "signal_name7" SITE "C1" ;		#  J3 pin 21
-#LOCATE COMP "signal_name8" SITE "F2" ;		#  J3 pin 25
-#LOCATE COMP "signal_name9" SITE "G2" ;		#  J3 pin 27
-#LOCATE COMP "signal_name10" SITE "G4" ;	#  J3 pin 31
-#LOCATE COMP "signal_name11" SITE "G5" ;	#  J3 pin 33
-#LOCATE COMP "signal_name12" SITE "H4" ;	#  J3 pin 37
-#LOCATE COMP "signal_name13" SITE "H5" ;	#  J3 pin 39
+# J3 pin 29 is GND
+# J3 pin 30 is GND
+#LOCATE COMP "" SITE "J3" ;		#  J4 pin 29
+#LOCATE COMP "" SITE "R1" ;		#  J4 pin 30
 #
-#LOCATE COMP "signal_name6" SITE "M2" ;		#  J4 pin 26
-#LOCATE COMP "signal_name7" SITE "N2" ;		#  J4 pin 28
-#LOCATE COMP "signal_name8" SITE "R1" ;		#  J4 pin 30
-#LOCATE COMP "signal_name9" SITE "R2" ;		#  J4 pin 32
-#LOCATE COMP "signal_name10" SITE "L5" ;	#  J4 pin 34
-#LOCATE COMP "signal_name11" SITE "L4" ;	#  J4 pin 36
-#LOCATE COMP "signal_name12" SITE "N4" ;	#  J4 pin 38
-#LOCATE COMP "signal_name13" SITE "N3" ;	#  J4 pin 40
+# Z-Motor Controller A4988 (2 rows of J3 and J4)
+LOCATE COMP "Z_Motor_0" SITE "G4" ;	#  J3 pin 31
+LOCATE COMP "Z_Motor_1" SITE "K5" ;	#  J3 pin 32
+LOCATE COMP "Z_Motor_2" SITE "K3" ;	#  J4 pin 31
+LOCATE COMP "Z_Motor_3" SITE "R2" ;	#  J4 pin 32
+LOCATE COMP "Z_Motor_4" SITE "G5" ;	#  J3 pin 33
+LOCATE COMP "Z_Motor_5" SITE "K4" ;	#  J3 pin 34
+LOCATE COMP "Z_Motor_6" SITE "K2" ;	#  J4 pin 33
+LOCATE COMP "Z_Motor_7" SITE "L5" ;	#  J4 pin 34
 #
-#LOCATE COMP "signal_name0" SITE "F3" ;		#  J4 pin  1
-#LOCATE COMP "signal_name1" SITE "F4" ;		#  J4 pin  3
-#LOCATE COMP "signal_name2" SITE "C3" ;		#  J4 pin  5
-#LOCATE COMP "signal_name3" SITE "C2" ;		#  J4 pin  7
-#LOCATE COMP "signal_name4" SITE "D2" ;		#  J4 pin  9
+# J3 pin 35 is GND
+# J3 pin 36 is GND
+#LOCATE COMP "" SITE "L2" ;	#  J4 pin 35
+#LOCATE COMP "" SITE "L4" ;	#  J4 pin 36
+#
+# F-Motor Controller A4988 (Last 2 rows of J3 and J4)
+LOCATE COMP "F_Motor_0" SITE "H4" ;	#  J3 pin 37
+LOCATE COMP "F_Motor_1" SITE "M5" ;	#  J3 pin 38
+LOCATE COMP "F_Motor_2" SITE "N1" ;	#  J4 pin 37
+LOCATE COMP "F_Motor_3" SITE "N4" ;	#  J4 pin 38
+LOCATE COMP "F_Motor_4" SITE "H5" ;	#  J3 pin 39
+LOCATE COMP "F_Motor_5" SITE "M4" ;	#  J3 pin 40
+LOCATE COMP "F_Motor_6" SITE "P1" ;	#  J4 pin 39
+LOCATE COMP "F_Motor_7" SITE "N3" ;	#  J4 pin 40
+#
+#LOCATE COMP "" SITE "M2" ;		#  J4 pin 26
+#LOCATE COMP "" SITE "N2" ;		#  J4 pin 28
+#
+# Limit Switches
+LOCATE COMP "X_Limit" SITE "C3" ;		#  J4 pin  5
+LOCATE COMP "Y_Limit" SITE "C2" ;		#  J4 pin  7
+LOCATE COMP "Z_Limit" SITE "D2" ;		#  J4 pin  9
+#
 #LOCATE COMP "signal_name5" SITE "D1" ;		#  J4 pin 11
 #LOCATE COMP "signal_name6" SITE "E1" ;		#  J4 pin 13
 #LOCATE COMP "signal_name7" SITE "F1" ;		#  J4 pin 15
@@ -68,12 +107,6 @@ LOCATE COMP "Z_Limit_Switch" SITE "F5" ;		#  J3 pin  7
 #LOCATE COMP "signal_name9" SITE "H3" ;		#  J4 pin 19
 #LOCATE COMP "signal_name10" SITE "G1" ;	#  J4 pin 21
 #LOCATE COMP "signal_name11" SITE "H1" ;	#  J4 pin 23
-#LOCATE COMP "signal_name0" SITE "J3" ;		#  J4 pin 29
-#LOCATE COMP "signal_name1" SITE "K3" ;		#  J4 pin 31
-#LOCATE COMP "signal_name2" SITE "K2" ;		#  J4 pin 33
-#LOCATE COMP "signal_name3" SITE "L2" ;		#  J4 pin 35
-#LOCATE COMP "signal_name4" SITE "N1" ;		#  J4 pin 37
-#LOCATE COMP "signal_name5" SITE "P1" ;		#  J4 pin 39
 #
 #LOCATE COMP "signal_name0" SITE "D8" ;		#  J5 pin  2
 #LOCATE COMP "signal_name1" SITE "E8" ;		#  J5 pin  4
